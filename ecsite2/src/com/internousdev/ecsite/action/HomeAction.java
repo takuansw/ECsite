@@ -25,7 +25,7 @@ public class HomeAction extends ActionSupport implements SessionAware {
 	private ItemSelectDAO itemSelectDAO = new ItemSelectDAO();
 
 
-	public String execute() {
+	public String execute(){
 
 		String result = "login";    //  デフォだとlogin.jspに飛ばされる
 
